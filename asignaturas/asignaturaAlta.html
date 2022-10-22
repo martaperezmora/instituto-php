@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nueva asignatura</title>
+</head>
+<body>
+    <h1>Nueva asignatura</h1>
+    <section>
+        <form action="guardarAsignatura.php" method="post">
+            <label for="codigo">Código: </label>
+            <input type="text" name="codigo" id="codigo" required autofocus>
+            <br>
+            <label for="descripcion">Descripción: </label>
+            <input type="text" name="descripcion" id="descripcion" required>
+            <br>
+            <input type="submit" value="añadir">
+        </form>
+    </section>
+</body>
+</html>
